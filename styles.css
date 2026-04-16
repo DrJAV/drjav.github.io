@@ -1,0 +1,4 @@
+/* Custom CSS styles */
+body {
+  transition: background-color 0.3s ease; /* Smooth transition for dark mode */
+}
