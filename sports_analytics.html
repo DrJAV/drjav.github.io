@@ -463,7 +463,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <section id="methods" class="level2">
 <h2 class="anchored" data-anchor-id="methods">Methods</h2>
 <p>Using the sequential steps of the SEMMA (Sampling, Exploring, Modify, Model, Assess) analysis, a multinomial logistic regression was developed for use with this data. All data processing was done within R using the following libraries: dplyr, readr, ggplot2, nnet, broom, reshape2, GGally, and caret.</p>
-<p>After loading the UFC dataset, the overall document was accepted as a 7439 x 95 Matrix (n = 7439 observations). Between male and female UFC fighter data, this was resulted for into xxx fights for men and 733 fights for women. Pilot data analysis was originally completed for exploratory data analysis in female UFC fighters. The results of each method were graphed via histogram to showcase the spread of each win condition.</p>
+<p>After loading the UFC dataset, the overall document was accepted as a 7439 x 95 Matrix (n = 7439 observations). Between male and female UFC fighter data, this was resulted for into 6706 fights for men and 733 fights for women. Pilot data analysis was originally completed for exploratory data analysis in female UFC fighters. The results of each method were graphed via histogram to showcase the spread of each win condition.</p>
 <p><strong>Distribution Plots of Win Condition (Men &amp; Women)</strong></p>
 <div class="cell">
 <div class="cell-output-display">
@@ -502,7 +502,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 <p>The above code showcases how the above predictors were determined from the UFC dataset shared above.</p>
 <p><strong>SAMPLING</strong></p>
-<p>The seed function was used and set to 123 and 213 for replicability when deciding to plot the datasets for training and test validation. An 80/20 training split was utilized creating a result of 586 training matches and 147 validation matches for women and XXX training matches and XXX validation matches for men.</p>
+<p>The seed function was used and set to 123 and 213 for replicability when deciding to plot the datasets for training and test validation. An 80/20 training split was utilized creating a result of 586 training matches and 147 validation matches for women and 5365 training matches and 1341 validation matches for men.</p>
 <div class="cell">
 <details class="code-fold">
 <summary>Click to see: 80/20 Train/Test Split</summary>
